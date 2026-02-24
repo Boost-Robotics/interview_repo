@@ -1,0 +1,6 @@
+# Core utilities
+requests>=2.31.0       # HTTP library for making API calls
+numpy>=1.26.0          # Numerical computing
+
+# Testing
+pytest>=8.0.0          # Test framework – run with: pytest
