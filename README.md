@@ -42,12 +42,5 @@ interview_repo/
 └── README.md         # You are here
 ```
 
-## Exercise Notes
-
-- Feel free to add new files, modules, or packages as needed.
-- Write clean, readable code and add comments where appropriate.
-- Tests are encouraged – use `pytest` (already in `requirements.txt`).
-  ```bash
-  pytest
   ```
 - Don't hesitate to ask questions if anything is unclear. Good luck!
