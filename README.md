@@ -45,10 +45,6 @@ interview_repo/
 
 ### Grocery Robot Exercise
 
-1. **Run the starter script**:
-   ```bash
-   python grocery_robot/main.py
-   ```
 
 #### Software–Hardware Hackathon (120 minutes)
 
@@ -64,6 +60,11 @@ interview_repo/
 
 **Your task:** Extend the starter code by implementing a simple perception → grasp → place pipeline for one of the fruits on the table. Once you have a basic pipeline working, choose one or two areas to improve.
 
+1. **Run the starter script**:
+   ```bash
+   python grocery_robot/main.py
+   ```
+   
 **Possible improvement areas:**
 
 - **Perception:**
