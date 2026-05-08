@@ -81,6 +81,32 @@ interview_repo/
 
 ### Maniskill Exercise
 
+Behavior Cloning Challenge (90 mins + 120 mins)
+Objective
+Using pre-recorded demonstrations and existing training scripts, run a controlled ablation study on ManiSkill peg insertion:
+ACT vs Diffusion Policy
+Action space variants
+Observation space variants
+Try to get through as much as you can. The goal of this is to test some hypotheses that you may have about behavior cloning. If this seems too difficult in the time given, please let us know sooner rather than later.
+Some questions to answer:
+What is the difference between ACT vs Diffusion Policy vs Vanilla BC? Should we expect performance differences on this peg in hole task? 
+Maniskill Docs: https://maniskill.readthedocs.io/en/latest/index.html
+Maniskill: https://github.com/haosulab/ManiSkill
+Access to GCP: gcloud compute ssh --zone "us-central1-a" "instance-20260226-035150" --project "vocal-affinity-454218-p3"
+
+
+
+
+
+
+
+
+
+
+(my_env) hans@instance-20260226-035150:~/bc_ws$ python -m mani_skill.utils.download_demo PegInsertionSide-v1
+Downloading demonstrations to /home/hans/.maniskill/demos - 1/1, PegInsertionSide-v1
+29.5Mit [00:01, 19.3Mit/s]                                                                                                                                                       
+(my_env) hans@instance-20260226-035150:~/bc_ws$ 
 
 
 Don't hesitate to ask questions if anything is unclear. Good luck!
