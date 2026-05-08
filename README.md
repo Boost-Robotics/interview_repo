@@ -46,7 +46,7 @@ interview_repo/
 ### Grocery Robot Exercise
 
 
-#### Software–Hardware Hackathon (120 minutes)
+#### Software–Hardware Hackathon (110 minutes)
 
 **You should assume:**
 - An xArm6 with a gripper
