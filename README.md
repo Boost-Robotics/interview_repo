@@ -56,14 +56,9 @@ interview_repo/
 ### Maniskill Exercise
 
 
-- Maniskill Exercise
-
-
 
 Don't hesitate to ask questions if anything is unclear. Good luck!
 
-
-# Maniskill Exersize
 
 
 
