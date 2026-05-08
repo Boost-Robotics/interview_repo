@@ -28,19 +28,46 @@ Welcome! This is a starter Python repository for your interview exercise.
    pip install -r requirements.txt
    ```
 
-4. **Run the starter script**:
-   ```bash
-   python main.py
-   ```
+
 
 ## Project Structure
 
 ```
 interview_repo/
-├── main.py           # Entry point – start here!
-├── requirements.txt  # Python dependencies
-└── README.md         # You are here
+├── maniskill/           # Maniskill Exercise
+├── grocery_robot/       # Grocery Robot Exercise
+│   └── main.py          # Entry point – start here!
+├── requirements.txt     # Python dependencies
+└── README.md            # You are here
 ```
 
-  ```
-- Don't hesitate to ask questions if anything is unclear. Good luck!
+## Exercises
+
+
+## Exercises
+
+### Grocery Robot Exercise
+
+1. **Run the starter script**:
+   ```bash
+   python grocery_robot/main.py
+   ```
+
+### Maniskill Exercise
+
+
+- Maniskill Exercise
+
+
+
+Don't hesitate to ask questions if anything is unclear. Good luck!
+
+
+# Maniskill Exersize
+
+
+
+
+
+
+
