@@ -79,12 +79,13 @@ interview_repo/
   - Preventing fruit damage (grip force control)
   - Obstacle avoidance
 
+---
+
+
 ### Maniskill Exercise
 
 **Duration:** 90 minutes + 120 minutes  
 **Task:** ManiSkill Peg Insertion Behavior Cloning Ablation Study
-
----
 
 #### Objective
 
