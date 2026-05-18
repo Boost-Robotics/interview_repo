@@ -81,14 +81,12 @@ interview_repo/
 
 ### Maniskill Exercise
 
-# Behavior Cloning Onsite Challenge
-
 **Duration:** 90 minutes + 120 minutes  
 **Task:** ManiSkill Peg Insertion Behavior Cloning Ablation Study
 
 ---
 
-## Objective
+#### Objective
 
 Using pre-recorded demonstrations and existing training scripts, run a controlled ablation study on the ManiSkill **PegInsertionSide-v1** task.
 
@@ -104,7 +102,7 @@ If the task seems too difficult to complete in the time given, please let us kno
 
 ---
 
-## Questions to Answer
+#### Questions to Answer
 
 Please be prepared to discuss:
 
@@ -117,7 +115,7 @@ Please be prepared to discuss:
 
 ---
 
-## Useful Links
+#### Useful Links
 
 - ManiSkill documentation: https://maniskill.readthedocs.io/en/latest/index.html
 - ManiSkill GitHub repository: https://github.com/haosulab/ManiSkill
@@ -125,7 +123,7 @@ Please be prepared to discuss:
 
 ---
 
-## GCP Access
+#### GCP Access
 
 SSH into the provided GCP instance:
 
@@ -138,7 +136,7 @@ gcloud compute ssh \
 
 ---
 
-## Download Demonstrations
+#### Download Demonstrations
 
 Follow the ManiSkill instructions for downloading demonstration data:
 
@@ -158,7 +156,7 @@ export DEMO_PATH=~/.maniskill/demos
 
 ---
 
-## Replay Demonstrations into an Easier Action / State Space
+#### Replay Demonstrations into an Easier Action / State Space
 
 Before training, replay the demonstrations into a more convenient control and observation format.
 
@@ -193,7 +191,7 @@ python -m mani_skill.trajectory.replay_trajectory --traj-path ${DEMO_PATH}/PegIn
 
 ---
 
-## Train a Policy
+#### Train a Policy
 
 Navigate to the ACT baseline directory:
 
@@ -226,7 +224,7 @@ python train.py --env-id PegInsertionSide-v1 --demo-path ~/.maniskill/demos/PegI
 
 ---
 
-## Suggested Ablations
+#### Suggested Ablations
 
 You do not need to complete all of these. Prioritize the ones you think are most informative.
 
@@ -249,7 +247,7 @@ Questions to consider:
 
 ---
 
-### 2. Action Space Variants
+#### 2. Action Space Variants
 
 Try different control modes, such as:
 
@@ -269,7 +267,7 @@ Questions to consider:
 
 ---
 
-### 3. Observation Space Variants
+#### 3. Observation Space Variants
 
 Try different observation modes, such as:
 
@@ -289,7 +287,7 @@ Questions to consider:
 
 ---
 
-### 4. Number of Demonstrations
+#### 4. Number of Demonstrations
 
 Try varying the number of demonstrations:
 
@@ -309,7 +307,7 @@ Questions to consider:
 
 ---
 
-### 5. Random Seeds
+#### 5. Random Seeds
 
 If time permits, run multiple seeds:
 
@@ -327,7 +325,7 @@ Questions to consider:
 
 ---
 
-## Suggested Experiment Table
+#### Suggested Experiment Table
 
 Fill in as much as you can during the challenge.
 
