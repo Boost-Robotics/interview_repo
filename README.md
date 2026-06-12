@@ -2,10 +2,18 @@
 
 Welcome! This is a starter Python repository for your interview exercise.
 
+## Before we begin...
+We will be working with a physical robot arm. For your safety:
+- Please keep a safe distance during operation, and extra aware of the system when you activate control.
+- Always have a hand on the e-stop, and don't hesitate to press it. It is easy to recover from, and you should play it better safe than sorry.
+
+
 ## Getting Started
 
+A laptop is provided for you to conduct this exercise. If you would like to use your own laptop, there are some notes in the Tips and Tricks section to get you running. 
+
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.9 or higher
 - `pip` (Python package manager)
 
 ### Setup
@@ -18,9 +26,9 @@ Welcome! This is a starter Python repository for your interview exercise.
 
 2. **Create and activate a virtual environment** (recommended):
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate      # On Linux/macOS
-   # venv\Scripts\activate       # On Windows
+   python3 -m venv interview
+   source interview/bin/activate      # On Linux/macOS
+   # interview\Scripts\activate       # On Windows
    ```
 
 3. **Install dependencies**:
@@ -40,13 +48,22 @@ interview_repo/
 ├── requirements.txt     # Python dependencies
 └── README.md            # You are here
 ```
+## Tips and Tricks
 
-## Exercises
+### Using Your Personal Computer
+You are welcome to use your own computer. In order to do so, you need to do the following steps.
 
-### Grocery Robot Exercise
+- Connect the robot ethernet cable to your computer
+- Set your static IP to`192.168.1.100` and netmask to `255.255.255.0`.  
+- Connect the realsense to your USB-A port. Check that the realsense shows up on your computer.
 
+### Connecting to the XArm UI
+Once wired into the robot's network, go to `192.168.1.11:18333/` in your browser.
 
-#### Software–Hardware Hackathon (120 minutes)
+### As an extra option...
+If you want to use your own computer, but the robot or camera isn't working with your device, there is an option to write code on your own device and copy it over to the provided laptop for running it on the robot.
+
+## Exercise 1: Grocery Robot Exercise
 
 **You should assume:**
 - An xArm6 with a gripper
@@ -57,8 +74,11 @@ interview_repo/
 - Read and understand the existing code
 - Ask questions or request help with implementation
 - Critique assumptions and design decisions
+- Use the provided whiteboard, if desired, to draw out a plan before implementing things
 
-**Your task:** Extend the starter code by implementing a simple perception → grasp → place pipeline for one of the fruits on the table. Once you have a basic pipeline working, choose one or two areas to improve.
+**Your task:** 
+
+Extend the starter code by implementing a simple perception → grasp → place pipeline for one of the fruits on the table. We strongly recommend you get first get a basic pipeline working, before choosing one or two areas to improve.
 
 1. **Run the starter script**:
    ```bash
@@ -82,7 +102,7 @@ interview_repo/
 ---
 
 
-### Maniskill Exercise
+## Exercise 2: Maniskill Exercise
 
 **Duration:** 90 minutes + 120 minutes  
 **Task:** ManiSkill Peg Insertion Behavior Cloning Ablation Study
