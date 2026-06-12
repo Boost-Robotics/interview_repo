@@ -36,9 +36,7 @@ A laptop is provided for you to conduct this exercise. If you would like to use 
    pip install -r requirements.txt
    ```
 
-
-
-## Project Structure
+### Project Structure
 
 ```
 interview_repo/
@@ -48,22 +46,24 @@ interview_repo/
 ├── requirements.txt     # Python dependencies
 └── README.md            # You are here
 ```
-## Tips and Tricks
+### Tips and Tricks
 
-### Using Your Personal Computer
+#### Using Your Personal Computer
 You are welcome to use your own computer. In order to do so, you need to do the following steps.
 
 - Connect the robot ethernet cable to your computer
 - Set your static IP to`192.168.1.100` and netmask to `255.255.255.0`.  
 - Connect the realsense to your USB-A port. Check that the realsense shows up on your computer.
 
-### Connecting to the XArm UI
+#### Connecting to the XArm UI
 Once wired into the robot's network, go to `192.168.1.11:18333/` in your browser.
 
-### As an extra option...
+#### As an extra option...
 If you want to use your own computer, but the robot or camera isn't working with your device, there is an option to write code on your own device and copy it over to the provided laptop for running it on the robot.
 
 ## Exercise 1: Grocery Robot Exercise
+
+![XArm Coordinate Frame](xarm_coordinate_frame.png)
 
 **You should assume:**
 - An xArm6 with a gripper
@@ -74,11 +74,11 @@ If you want to use your own computer, but the robot or camera isn't working with
 - Read and understand the existing code
 - Ask questions or request help with implementation
 - Critique assumptions and design decisions
-- Use the provided whiteboard, if desired, to draw out a plan before implementing things
+- Use the provided whiteboard, if desired, to draw out a plan or write pseudocode
 
 **Your task:** 
 
-Extend the starter code by implementing a simple perception → grasp → place pipeline for one of the fruits on the table. We strongly recommend you get first get a basic pipeline working, before choosing one or two areas to improve.
+Extend the starter code by implementing a simple perception → grasp → place pipeline for one of the fruits on the table. We strongly recommend you first get a basic pipeline working, before choosing one or two areas to improve.
 
 1. **Run the starter script**:
    ```bash
