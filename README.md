@@ -54,6 +54,7 @@ You are welcome to use your own computer. In order to do so, you need to do the 
 - Connect the robot ethernet cable to your computer
 - Set your static IP to`192.168.1.100` and netmask to `255.255.255.0`.  
 - Connect the realsense to your USB-A port. Check that the realsense shows up on your computer.
+- API example for open and close gripper: https://github.com/xArm-Developer/xArm-Python-SDK/blob/a1adbae40434ce429b9d0013dc669151fd940d23/example/wrapper/common/5004-set_gripper.py#L10
 
 #### Connecting to the XArm UI
 Once wired into the robot's network, go to `192.168.1.11:18333/` in your browser.
